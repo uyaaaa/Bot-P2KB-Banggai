@@ -1,3 +1,15 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.send('Web Server Bot P2KB Aktif 24 Jam!');
+});
+
+app.listen(port, () => {
+    console.log(`Web server menyala di port ${port}`);
+});
+
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
