@@ -64,12 +64,6 @@ client.on('message', message => {
     else if (text === '1.2') {
         message.reply(`Berikut adalah Kerangka Acuan Kegiatan sesuai format Kemenkes: https://drive.google.com/file/d/1klLeitjOQnEORf1H5NTHcIgBEYSpIS8P/view?usp=sharing`);
     } 
-    else if (text === '1.3') {
-        message.reply(`Berikut adalah Contoh Surat Permohonan: https://drive.google.com/drive/folders/1UAGJH1STM5o6SHjCM35ltjAxyDsEhxJQ?usp=drive_link`);
-    } 
-    else if (text === '1.4') {
-        message.reply(`Berikut adalah Contoh Dokumen Perjanjian Kerja Sama: https://drive.google.com/drive/folders/1fclsnc8Xtj5pSQFLHnBtM4rbMWc8OADn?usp=drive_link`);
-    } 
     else if (text === '2') {
         message.reply(`Berikut adalah panduan Cara Upload SKP Ranah B: https://drive.google.com/drive/folders/100aGrivR3LuFpl48zCRt-7d-Dpk8bIMH`);
     } 
