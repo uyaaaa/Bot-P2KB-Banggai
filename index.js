@@ -15,7 +15,10 @@ const qrcode = require('qrcode-terminal');
 
 // Inisialisasi client dengan penyimpanan sesi lokal agar tidak perlu scan QR terus-menerus
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    }
 });
 
 // Menghasilkan QR Code di terminal untuk di-scan
