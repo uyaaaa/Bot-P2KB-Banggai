@@ -59,13 +59,16 @@ client.on('message', message => {
     const text = message.body.trim().toUpperCase();
 
     if (text === '1') {
-        message.reply(`Silakan pilih informasi yang ingin Dokter ketahui:\n1.1 Syarat Registrasi Pelaksanaan Peningkatan Kompetensi Lainnya BAPELKES SULTENG\n1.2 Kerangka Acuan Kegiatan sesuai format Kemenkes`);
+        message.reply(`Silakan pilih informasi yang ingin Dokter ketahui:\n1.1 Syarat Registrasi Pelaksanaan Peningkatan Kompetensi Lainnya BAPELKES SULTENG\n1.2 Kerangka Acuan Kegiatan sesuai format Kemenkes\n1.3 Ketentuan Media Publikasi Flyer`);
     } 
     else if (text === '1.1') {
         message.reply(`Syarat Registrasi:\n1. Permohonan maksimal 40 hari sebelum penyelenggaraan\n2. Surat Permohonan\n3. Dokumen Perjanjian Kerja Sama (PKS)\n4. Kerangka Acuan Kegiatan sesuai Format Kemenkes\n5. Jadwal\n6. CV Narasumber/Pelatih\n7. Pelatih memiliki akun Plataran Sehat\n\nSyarat Penyelenggaraan:\n* Penyelenggaraan sesuai Standar Pelayanan & SOP Penyelenggaraan Peningkatan Kompetensi Lainnya.\n* Contact Person BAPELKES SULTENG: Aisyia Shafira Amalia Pamekas, SKM (HP/WA) +62 823-5333-3963`);
     } 
     else if (text === '1.2') {
         message.reply(`Berikut adalah Kerangka Acuan Kegiatan sesuai format Kemenkes: https://drive.google.com/file/d/1klLeitjOQnEORf1H5NTHcIgBEYSpIS8P/view?usp=sharing`);
+    } 
+    else if (text === '1.3') {
+        message.reply(`Berikut adalah Ketentuan Media Publikasi Flyer: https://drive.google.com/drive/folders/1ku1iKAxJvkEqNPz_HxOT8JQncxDC4Rez`);
     } 
     else if (text === '2') {
         message.reply(`Berikut adalah panduan Cara Upload SKP Ranah B: https://drive.google.com/drive/folders/100aGrivR3LuFpl48zCRt-7d-Dpk8bIMH`);
