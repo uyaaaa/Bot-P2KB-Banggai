@@ -78,7 +78,7 @@ client.on('message', message => {
     } 
     else if (text === '4') {
         // Ganti nomor 6281234567890 dengan nomor WhatsApp Admin yang sebenarnya
-        message.reply(`Silakan hubungi Admin P2KB melalui tautan WhatsApp berikut:\nhttps://api.whatsapp.com/send?phone=6285146338688\n\n *(Klik tautan di atas untuk langsung beralih ke chat Admin)*`);
+        message.reply(`Silakan hubungi Admin P2KB melalui tautan WhatsApp berikut:\nhttps://api.whatsapp.com/send?phone=6282357135273\n\n *(Klik tautan di atas untuk langsung beralih ke chat Admin)*`);
     } 
     else if (text === '5') {
         message.reply(`*PERTANYAAN YANG SERING DIAJUKAN (FAQ)*\n\nKetik angka di bawah ini untuk melihat jawaban:\n\n*5.1* Apakah semua seminar otomatis mendapat SKP?\n*5.2* Saya sudah punya sertifikat, apakah pasti dapat SKP?\n*5.3* Apakah saya boleh upload sertifikat yang sama berkali-kali?\n*5.4* SKP saya belum muncul, apa yang dilakukan?\n*5.5* Apakah bot P2KB IDI dapat menentukan SKP saya disetujui?\n*5.6* Link Resmi Akses SKP\n\nKetik *MENU* untuk kembali ke awal.`);
