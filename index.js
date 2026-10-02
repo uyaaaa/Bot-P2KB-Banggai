@@ -78,7 +78,7 @@ client.on('message', message => {
     } 
     else if (text === '4') {
         // Ganti nomor 6281234567890 dengan nomor WhatsApp Admin yang sebenarnya
-        message.reply(`Silakan hubungi Admin 1 P2KB melalui tautan WhatsApp berikut:\nhttps://api.whatsapp.com/send?phone=6282357135273\n\n *(Klik tautan di atas untuk langsung beralih ke chat Admin 1)* \natau 
+        message.reply(`Silakan hubungi Admin 1 P2KB melalui tautan WhatsApp berikut:\nhttps://api.whatsapp.com/send?phone=6282357135273\n\n *(Klik tautan di atas untuk langsung beralih ke chat Admin 1)* \n\n*atau* 
             \nhubungi Admin 2 P2KB melalui tautan WhatsApp berikut:\nhttps://api.whatsapp.com/send?phone=6281649506959\n\n *(Klik tautan di atas untuk langsung beralih ke chat Admin 2)*`);
     } 
     else if (text === '5') {
